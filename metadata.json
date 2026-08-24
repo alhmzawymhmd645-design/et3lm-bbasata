@@ -1,0 +1,6 @@
+{
+  "name": "اتعلم ببساطة - منصة التعليم الذكية",
+  "description": "منصة تعليمية عربية شاملة للكورسات التفاعلية والدروس المرئية مع الدفع عبر Etisalat Cash ومساعد الذكاء الاصطناعي ونظام الدعم الفني ونظام المراسلة والمحادثات المباشرة الداخلي المستقل 100%",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

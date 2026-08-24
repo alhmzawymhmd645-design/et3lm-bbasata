@@ -1,0 +1,381 @@
+npm notice This endpoint is being retired. Use the bulk advisory endpoint instead. See the following docs for more info: https://api-docs.npmjs.com/#tag/Audit
+
+> @firebase/util@1.15.3 postinstall G:\اول منصه في حياتي\et3lm-bbasata-project\node_modules\@firebase\util
+> node ./postinstall.js
+
+G:\اول منصه في حياتي\et3lm-bbasata-project\node_modules\@firebase\util\postinstall.js:25
+  const envVariable = process.env[ENV_VARIABLE]?.trim();
+                                                ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-linux-arm64-musl@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-linux-arm64-musl@1.32.0: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-android-arm64@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-android-arm64@1.32.0: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-win32-arm64-msvc@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-win32-arm64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-win32-arm64-msvc@1.32.0: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-linux-arm64-gnu@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-linux-arm64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-linux-arm64-gnu@1.32.0: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-freebsd-x64@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-freebsd-x64@1.32.0: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-darwin-x64@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-darwin-x64@1.32.0: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-linux-arm-gnueabihf@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-linux-arm-gnueabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-linux-arm-gnueabihf@1.32.0: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-darwin-arm64@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-darwin-arm64@1.32.0: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-linux-x64-gnu@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-linux-x64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-linux-x64-gnu@1.32.0: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: lightningcss-linux-x64-musl@1.32.0 (node_modules\lightningcss\node_modules\lightningcss-linux-x64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for lightningcss-linux-x64-musl@1.32.0: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-android-arm64@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-android-arm64@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-android-arm64@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-android-arm64@4.3.3: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-wasm32-wasi@4.3.3: wanted: {"node":">=14.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-wasm32-wasi@4.3.3
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-linux-arm64-musl@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-linux-arm64-musl@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-linux-arm64-musl@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-linux-arm64-musl@4.3.3: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-darwin-x64@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-darwin-x64@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-darwin-x64@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-darwin-x64@4.3.3: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-linux-x64-musl@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-linux-x64-musl@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-linux-x64-musl@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-x64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-linux-x64-musl@4.3.3: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-darwin-arm64@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-darwin-arm64@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-darwin-arm64@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-darwin-arm64@4.3.3: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-freebsd-x64@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-freebsd-x64@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-freebsd-x64@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-freebsd-x64@4.3.3: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-linux-arm64-gnu@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-linux-arm64-gnu@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-linux-arm64-gnu@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-arm64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-linux-arm64-gnu@4.3.3: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-linux-x64-gnu@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-linux-x64-gnu@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-linux-x64-gnu@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-linux-x64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-linux-x64-gnu@4.3.3: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @tailwindcss/oxide-win32-arm64-msvc@4.3.3: wanted: {"node":">= 20"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @tailwindcss/oxide-win32-arm64-msvc@4.3.3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-win32-arm64-msvc@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-win32-arm64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-win32-arm64-msvc@4.3.3: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @tailwindcss/oxide-wasm32-wasi@4.3.3 (node_modules\@tailwindcss\oxide\node_modules\@tailwindcss\oxide-wasm32-wasi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @tailwindcss/oxide-wasm32-wasi@4.3.3: wanted {"os":"any","arch":"wasm32"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @firebase/ai@2.15.0: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/ai@2.15.0
+npm WARN notsup Unsupported engine for @firebase/app@0.16.1: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/app@0.16.1
+npm WARN notsup Unsupported engine for @firebase/util@1.15.3: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/util@1.15.3
+npm WARN notsup Unsupported engine for @firebase/database@1.1.5: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/database@1.1.5
+npm WARN notsup Unsupported engine for @firebase/auth@1.13.5: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/auth@1.13.5
+npm WARN notsup Unsupported engine for @firebase/firestore@4.17.1: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/firestore@4.17.1
+npm WARN notsup Unsupported engine for @firebase/app-check@0.13.1: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/app-check@0.13.1
+npm WARN notsup Unsupported engine for @firebase/storage@0.14.5: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/storage@0.14.5
+npm WARN notsup Unsupported engine for @firebase/functions@0.14.0: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/functions@0.14.0
+npm WARN notsup Unsupported engine for @firebase/app-compat@0.5.17: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/app-compat@0.5.17
+npm WARN notsup Unsupported engine for @firebase/auth-compat@0.6.10: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/auth-compat@0.6.10
+npm WARN notsup Unsupported engine for @firebase/storage-compat@0.4.5: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/storage-compat@0.4.5
+npm WARN notsup Unsupported engine for @firebase/database-compat@2.1.7: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/database-compat@2.1.7
+npm WARN notsup Unsupported engine for @firebase/app-check-compat@0.4.7: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/app-check-compat@0.4.7
+npm WARN notsup Unsupported engine for @firebase/firestore-compat@0.4.13: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/firestore-compat@0.4.13
+npm WARN notsup Unsupported engine for @firebase/functions-compat@0.5.0: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/functions-compat@0.5.0
+npm WARN notsup Unsupported engine for @firebase/component@0.7.5: wanted: {"node":">=20.0.0"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @firebase/component@0.7.5
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.3 (node_modules\vite\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/aix-ppc64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/aix-ppc64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/aix-ppc64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\aix-ppc64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/aix-ppc64@0.25.12: wanted {"os":"aix","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/darwin-x64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/darwin-x64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/darwin-x64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/darwin-x64@0.25.12: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/android-arm64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/android-arm64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-arm64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-arm64@0.25.12: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/android-x64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/android-x64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-x64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\android-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-x64@0.25.12: wanted {"os":"android","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-arm@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-arm@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-arm@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-arm@0.25.12: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/android-arm@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/android-arm@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-arm@0.25.12 (node_modules\esbuild\node_modules\@esbuild\android-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-arm@0.25.12: wanted {"os":"android","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-arm64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-arm64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-arm64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-arm64@0.25.12: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-ia32@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-ia32@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-ia32@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-ia32@0.25.12: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/darwin-arm64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/darwin-arm64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/darwin-arm64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/darwin-arm64@0.25.12: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/freebsd-x64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/freebsd-x64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/freebsd-x64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/freebsd-x64@0.25.12: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-loong64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-loong64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-loong64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-loong64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-loong64@0.25.12: wanted {"os":"linux","arch":"loong64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-ppc64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-ppc64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-ppc64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-ppc64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-ppc64@0.25.12: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/freebsd-arm64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/freebsd-arm64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/freebsd-arm64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/freebsd-arm64@0.25.12: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-s390x@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-s390x@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-s390x@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-s390x):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-s390x@0.25.12: wanted {"os":"linux","arch":"s390x"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/netbsd-arm64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/netbsd-arm64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/netbsd-arm64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\netbsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/netbsd-arm64@0.25.12: wanted {"os":"netbsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-riscv64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-riscv64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-riscv64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-riscv64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-riscv64@0.25.12: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-mips64el@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-mips64el@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-mips64el@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-mips64el):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-mips64el@0.25.12: wanted {"os":"linux","arch":"mips64el"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/netbsd-x64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/netbsd-x64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/netbsd-x64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\netbsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/netbsd-x64@0.25.12: wanted {"os":"netbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-x64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-x64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-x64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\linux-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-x64@0.25.12: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/openbsd-x64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/openbsd-x64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/openbsd-x64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\openbsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/openbsd-x64@0.25.12: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/openbsd-arm64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/openbsd-arm64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/openbsd-arm64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\openbsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/openbsd-arm64@0.25.12: wanted {"os":"openbsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/openharmony-arm64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/openharmony-arm64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/openharmony-arm64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\openharmony-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/openharmony-arm64@0.25.12: wanted {"os":"openharmony","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/sunos-x64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/sunos-x64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/sunos-x64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\sunos-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/sunos-x64@0.25.12: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/win32-arm64@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/win32-arm64@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/win32-arm64@0.25.12 (node_modules\esbuild\node_modules\@esbuild\win32-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/win32-arm64@0.25.12: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/win32-ia32@0.25.12: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/win32-ia32@0.25.12
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/win32-ia32@0.25.12 (node_modules\esbuild\node_modules\@esbuild\win32-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/win32-ia32@0.25.12: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @napi-rs/lzma-linux-x64-gnu@1.5.1: wanted: {"node":"^22.20 || ^24.12 || >=25"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @napi-rs/lzma-linux-x64-gnu@1.5.1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @napi-rs/lzma-linux-x64-gnu@1.5.1 (node_modules\rollup\node_modules\@napi-rs\lzma-linux-x64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @napi-rs/lzma-linux-x64-gnu@1.5.1: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-android-arm-eabi@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-android-arm-eabi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-android-arm-eabi@4.62.5: wanted {"os":"android","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-arm-musleabihf@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-arm-musleabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-arm-musleabihf@4.62.5: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-freebsd-arm64@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-freebsd-arm64@4.62.5: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-arm-gnueabihf@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-arm-gnueabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-arm-gnueabihf@4.62.5: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-darwin-arm64@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-darwin-arm64@4.62.5: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-freebsd-x64@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-freebsd-x64@4.62.5: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-darwin-x64@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-darwin-x64@4.62.5: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-arm64-gnu@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-arm64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-arm64-gnu@4.62.5: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-android-arm64@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-android-arm64@4.62.5: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-arm64-musl@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-arm64-musl@4.62.5: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-ppc64-gnu@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-ppc64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-ppc64-gnu@4.62.5: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-ppc64-musl@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-ppc64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-ppc64-musl@4.62.5: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-riscv64-gnu@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-riscv64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-riscv64-gnu@4.62.5: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-riscv64-musl@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-riscv64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-riscv64-musl@4.62.5: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-openbsd-x64@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-openbsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-openbsd-x64@4.62.5: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-s390x-gnu@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-s390x-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-s390x-gnu@4.62.5: wanted {"os":"linux","arch":"s390x"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-win32-arm64-msvc@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-win32-arm64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-win32-arm64-msvc@4.62.5: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-x64-gnu@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-x64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-x64-gnu@4.62.5: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-loong64-gnu@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-loong64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-loong64-gnu@4.62.5: wanted {"os":"linux","arch":"loong64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-x64-musl@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-x64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-x64-musl@4.62.5: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-linux-loong64-musl@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-linux-loong64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-linux-loong64-musl@4.62.5: wanted {"os":"linux","arch":"loong64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-openharmony-arm64@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-openharmony-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-openharmony-arm64@4.62.5: wanted {"os":"openharmony","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @rollup/rollup-win32-ia32-msvc@4.62.5 (node_modules\rollup\node_modules\@rollup\rollup-win32-ia32-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @rollup/rollup-win32-ia32-msvc@4.62.5: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/android-arm64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/android-arm64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-arm64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-arm64@0.28.2: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/aix-ppc64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/aix-ppc64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/aix-ppc64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\aix-ppc64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/aix-ppc64@0.28.2: wanted {"os":"aix","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/darwin-arm64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/darwin-arm64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/darwin-arm64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/darwin-arm64@0.28.2: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/android-x64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/android-x64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-x64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\android-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-x64@0.28.2: wanted {"os":"android","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/darwin-x64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/darwin-x64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/darwin-x64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/darwin-x64@0.28.2: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/android-arm@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/android-arm@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/android-arm@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\android-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/android-arm@0.28.2: wanted {"os":"android","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/freebsd-x64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/freebsd-x64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/freebsd-x64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/freebsd-x64@0.28.2: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-arm@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-arm@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-arm@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-arm@0.28.2: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-arm64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-arm64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-arm64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-arm64@0.28.2: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/freebsd-arm64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/freebsd-arm64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/freebsd-arm64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/freebsd-arm64@0.28.2: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-loong64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-loong64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-loong64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-loong64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-loong64@0.28.2: wanted {"os":"linux","arch":"loong64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-ia32@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-ia32@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-ia32@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-ia32@0.28.2: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-mips64el@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-mips64el@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-mips64el@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-mips64el):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-mips64el@0.28.2: wanted {"os":"linux","arch":"mips64el"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-ppc64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-ppc64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-ppc64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-ppc64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-ppc64@0.28.2: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-s390x@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-s390x@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-s390x@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-s390x):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-s390x@0.28.2: wanted {"os":"linux","arch":"s390x"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-riscv64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-riscv64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-riscv64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-riscv64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-riscv64@0.28.2: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/linux-x64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/linux-x64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/linux-x64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\linux-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/linux-x64@0.28.2: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/netbsd-arm64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/netbsd-arm64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/netbsd-arm64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\netbsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/netbsd-arm64@0.28.2: wanted {"os":"netbsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/netbsd-x64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/netbsd-x64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/netbsd-x64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\netbsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/netbsd-x64@0.28.2: wanted {"os":"netbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/openbsd-arm64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/openbsd-arm64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/openbsd-arm64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\openbsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/openbsd-arm64@0.28.2: wanted {"os":"openbsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/openharmony-arm64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/openharmony-arm64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/openharmony-arm64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\openharmony-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/openharmony-arm64@0.28.2: wanted {"os":"openharmony","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/openbsd-x64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/openbsd-x64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/openbsd-x64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\openbsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/openbsd-x64@0.28.2: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/sunos-x64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/sunos-x64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/sunos-x64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\sunos-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/sunos-x64@0.28.2: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/win32-ia32@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/win32-ia32@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/win32-ia32@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\win32-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/win32-ia32@0.28.2: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @esbuild/win32-arm64@0.28.2: wanted: {"node":">=18"} (current: {"node":"12.22.12","npm":"6.14.16"})
+npm WARN notsup Not compatible with your version of node/npm: @esbuild/win32-arm64@0.28.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @esbuild/win32-arm64@0.28.2 (node_modules\tsx\node_modules\esbuild\node_modules\@esbuild\win32-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @esbuild/win32-arm64@0.28.2: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN The package vite is included as both a dev and production dependency.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: tslib@2.8.1 (node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\tslib):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'G:\اول منصه في حياتي\et3lm-bbasata-project\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\tslib' -> 'G:\اول منصه في حياتي\et3lm-bbasata-project\node_modules\@tailwindcss\oxide-wasm32-wasi\node_modules\.tslib.DELETE'
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @firebase/util@1.15.3 postinstall: `node ./postinstall.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the @firebase/util@1.15.3 postinstall script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\user\AppData\Roaming\npm-cache\_logs\2026-08-24T17_34_27_998Z-debug.log

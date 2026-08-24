@@ -1,0 +1,227 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile with role (student or admin)",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "email": { "type": "string", "maxLength": 256 },
+        "displayName": { "type": "string", "maxLength": 128 },
+        "photoURL": { "type": "string", "maxLength": 1024 },
+        "role": { "type": "string", "enum": ["admin", "student"], "maxLength": 32 },
+        "phone": { "type": "string", "maxLength": 32 },
+        "createdAt": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["uid", "email", "role"]
+    },
+    "Admin": {
+      "title": "Admin",
+      "description": "Admin authorization entry",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "email": { "type": "string", "maxLength": 256 },
+        "role": { "type": "string", "enum": ["admin"], "maxLength": 32 },
+        "createdAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["uid", "email", "role"]
+    },
+    "Course": {
+      "title": "Course",
+      "description": "Educational course details",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "title": { "type": "string", "maxLength": 256 },
+        "titleEn": { "type": "string", "maxLength": 256 },
+        "description": { "type": "string", "maxLength": 5000 },
+        "descriptionEn": { "type": "string", "maxLength": 5000 },
+        "thumbnail": { "type": "string", "maxLength": 2048 },
+        "price": { "type": "number" },
+        "originalPrice": { "type": "number" },
+        "level": { "type": "string", "maxLength": 64 },
+        "category": { "type": "string", "maxLength": 128 },
+        "duration": { "type": "string", "maxLength": 64 },
+        "lessonCount": { "type": "number" },
+        "published": { "type": "boolean" },
+        "featured": { "type": "boolean" },
+        "createdAt": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["title", "description", "price", "level", "published"]
+    },
+    "Lesson": {
+      "title": "Lesson",
+      "description": "Video lesson within a course",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "courseId": { "type": "string", "maxLength": 128 },
+        "title": { "type": "string", "maxLength": 256 },
+        "titleEn": { "type": "string", "maxLength": 256 },
+        "description": { "type": "string", "maxLength": 5000 },
+        "videoUrl": { "type": "string", "maxLength": 2048 },
+        "duration": { "type": "string", "maxLength": 64 },
+        "order": { "type": "number" },
+        "isFreePreview": { "type": "boolean" },
+        "published": { "type": "boolean" },
+        "createdAt": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["courseId", "title", "order", "published"]
+    },
+    "Payment": {
+      "title": "Payment",
+      "description": "Etisalat Cash payment verification request",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "userEmail": { "type": "string", "maxLength": 256 },
+        "userName": { "type": "string", "maxLength": 128 },
+        "userPhone": { "type": "string", "maxLength": 32 },
+        "courseId": { "type": "string", "maxLength": 128 },
+        "courseTitle": { "type": "string", "maxLength": 256 },
+        "amount": { "type": "number" },
+        "senderPhone": { "type": "string", "maxLength": 32 },
+        "walletNumber": { "type": "string", "maxLength": 32 },
+        "receiptUrl": { "type": "string", "maxLength": 5000000 },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"], "maxLength": 32 },
+        "adminNotes": { "type": "string", "maxLength": 1024 },
+        "createdAt": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["userId", "courseId", "amount", "senderPhone", "walletNumber", "status"]
+    },
+    "Enrollment": {
+      "title": "Enrollment",
+      "description": "Student enrollment in an approved course",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "userEmail": { "type": "string", "maxLength": 256 },
+        "courseId": { "type": "string", "maxLength": 128 },
+        "courseTitle": { "type": "string", "maxLength": 256 },
+        "paymentId": { "type": "string", "maxLength": 128 },
+        "enrolledAt": { "type": "string", "maxLength": 64 },
+        "progress": { "type": "number" },
+        "completedLessons": { "type": "array" },
+        "lastAccessedLessonId": { "type": "string", "maxLength": 128 },
+        "lastAccessedAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["userId", "courseId"]
+    },
+    "Setting": {
+      "title": "Setting",
+      "description": "Platform global configuration and Etisalat Cash settings",
+      "type": "object",
+      "properties": {
+        "platformName": { "type": "string", "maxLength": 128 },
+        "platformNameEn": { "type": "string", "maxLength": 128 },
+        "logoUrl": { "type": "string", "maxLength": 2048 },
+        "etisalatCashNumber": { "type": "string", "maxLength": 32 },
+        "description": { "type": "string", "maxLength": 2048 },
+        "descriptionEn": { "type": "string", "maxLength": 2048 },
+        "contactEmail": { "type": "string", "maxLength": 256 },
+        "contactPhone": { "type": "string", "maxLength": 32 },
+        "primaryColor": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["platformName", "etisalatCashNumber"]
+    },
+    "Testimonial": {
+      "title": "Testimonial",
+      "description": "Student testimonials and reviews",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 128 },
+        "role": { "type": "string", "maxLength": 128 },
+        "comment": { "type": "string", "maxLength": 2048 },
+        "rating": { "type": "number" },
+        "avatar": { "type": "string", "maxLength": 2048 },
+        "courseTitle": { "type": "string", "maxLength": 256 },
+        "createdAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["name", "comment", "rating"]
+    },
+    "CourseCategory": {
+      "title": "CourseCategory",
+      "description": "Dynamic course categories for filtering and organization",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 128 },
+        "nameEn": { "type": "string", "maxLength": 128 },
+        "description": { "type": "string", "maxLength": 1024 },
+        "icon": { "type": "string", "maxLength": 64 },
+        "active": { "type": "boolean" },
+        "order": { "type": "number" },
+        "createdAt": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["name", "active", "order"]
+    },
+    "CourseLevelItem": {
+      "title": "CourseLevelItem",
+      "description": "Dynamic course levels for difficulty progression",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 128 },
+        "nameEn": { "type": "string", "maxLength": 128 },
+        "description": { "type": "string", "maxLength": 1024 },
+        "active": { "type": "boolean" },
+        "order": { "type": "number" },
+        "createdAt": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["name", "active", "order"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profiles"
+    },
+    "/admins/{adminId}": {
+      "schema": "Admin",
+      "description": "Admin entries"
+    },
+    "/courses/{courseId}": {
+      "schema": "Course",
+      "description": "All educational courses"
+    },
+    "/lessons/{lessonId}": {
+      "schema": "Lesson",
+      "description": "Course lessons"
+    },
+    "/payments/{paymentId}": {
+      "schema": "Payment",
+      "description": "Etisalat Cash payment requests and receipts"
+    },
+    "/enrollments/{enrollmentId}": {
+      "schema": "Enrollment",
+      "description": "Student course enrollments and progress"
+    },
+    "/settings/{settingId}": {
+      "schema": "Setting",
+      "description": "Platform settings including Etisalat Cash wallet number"
+    },
+    "/testimonials/{testimonialId}": {
+      "schema": "Testimonial",
+      "description": "Student testimonials and reviews"
+    },
+    "/categories/{categoryId}": {
+      "schema": "CourseCategory",
+      "description": "Dynamic course categories"
+    },
+    "/course_levels/{levelId}": {
+      "schema": "CourseLevelItem",
+      "description": "Dynamic course difficulty levels"
+    }
+  }
+}
